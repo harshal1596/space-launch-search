@@ -1,6 +1,6 @@
-<<<<<<< Updated upstream
+
 # space-launch-search-api
-This application ingests the data from the public API from spaceflightnews.net, fetches the articles from the api and inserts data into Elasticsearch. This application also contains REST api which takes a keyword and able to give list of articles which contains the keyword. 
+This application ingests the data from the public API spaceflightnews.net (https://api.spaceflightnewsapi.net/v3/articles), fetches the articles from the api and inserts data into Elasticsearch. This application also contains REST api which takes a keyword and able to give list of articles which contains the keyword.
 
 # Required tools
 1. Elasticsearch
@@ -16,9 +16,6 @@ This application ingests the data from the public API from spaceflightnews.net, 
 6. Open the Postman and create new request
 7. Insert data into elasticsearch index using API "http://127.0.0.1:5000/insert" 
 8. Go to API http://127.0.0.1:5000/search/{{keyword}} to get the list of articles with the matching keyword.
-=======
-# space-launch-search
-This application ingests the data from the public API spaceflightnews.net (https://api.spaceflightnewsapi.net/v3/articles), fetches the articles from the api and inserts data into Elasticsearch. This application also contains REST api which takes a keyword and able to give list of articles which contains the keyword. 
+ 
 
-#
->>>>>>> Stashed changes
+
